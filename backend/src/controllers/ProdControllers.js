@@ -36,5 +36,17 @@ module.exports = {
         const prodUpdate = await Products.findByIdAndUpdate(id, data, { new: true });
         
         return response.json(prodUpdate)
+    },
+
+    async destroy(request, response) {
+        const { id } = request.params;
+        const findToDelete = await Products.findById(id);
+        const result = findToDelete ? {message: `O produto ${findToDelete.name} foi deletado!`} : { message: `O produto não foi encontrado!`};
+
+        if (findToDelete) {
+            await Products.findByIdAndDelete(id)
+        }
+
+        return response.json(result);
     }
 } 
