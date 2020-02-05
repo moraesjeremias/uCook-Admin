@@ -12,7 +12,6 @@ module.exports = {
         const { name, brand, price, carbs, category, quantity, img_url } = request.body;
 
         const catArray = parseStringAsArray(category);
-        console.log(catArray);
         const prod = await Products.create({
             name,
             brand,
