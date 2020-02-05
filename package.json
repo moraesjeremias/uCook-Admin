@@ -1,0 +1,9 @@
+{
+  "name": "uCook-Admin",
+  "version": "1.0.0",
+  "description": "Admin pannel",
+  "main": "index.js",
+  "repository": "https://github.com/moraesjeremias/uCook-Admin.git",
+  "author": "Jeremias Moraes <moraesjeremias@gmail.com>",
+  "license": "MIT"
+}
