@@ -1,0 +1,35 @@
+/* Footer */
+.page-footer.font-small.cyan.darken-3{
+    background-color:#000000;
+    margin-top: 10%;
+    z-index: -999999;
+}
+
+.col-md-12{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.mb-5.flex-center{
+    
+}
+
+.social{
+    color: #ffffff;
+    margin: 10px;
+}
+
+.py-3{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.footer-name-brand{
+    text-decoration: none;
+    color: #ffffff;
+}
