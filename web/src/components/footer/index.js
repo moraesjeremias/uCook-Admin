@@ -12,16 +12,16 @@ const Footer = () => {
             <div className="row">
                 <div className="col-md-12">
                     <div className="mb-5 flex center">
-                        <a className="instagram social" href="https://www.instagram.com/ucookbr/" target="_blank">
+                        <a className="instagram social-m" href="https://www.instagram.com/ucookbr/" target="_blank">
                             <FontAwesomeIcon icon={faInstagram} size="2x" />
                         </a>
-                        <a className="facebook social" href="https://www.facebook.com/ucookbr/" target="_blank">
+                        <a className="facebook social-m" href="https://www.facebook.com/ucookbr/" target="_blank">
                             <FontAwesomeIcon icon={faFacebook} size="2x" />
                         </a>
-                        <a className="twitter social" href="https://twitter.com/ucookbr" target="_blank">
+                        <a className="twitter social-m" href="https://twitter.com/ucookbr" target="_blank">
                             <FontAwesomeIcon icon={faTwitter} size="2x" />
                         </a>
-                        <a className="linkedin social" href="https://www.linkedin.com/company/ucookbr/" target="_blank">
+                        <a className="linkedin social-m" href="https://www.linkedin.com/company/ucookbr/" target="_blank">
                             <FontAwesomeIcon icon={faLinkedin} size="2x" />
                         </a>
                     </div>

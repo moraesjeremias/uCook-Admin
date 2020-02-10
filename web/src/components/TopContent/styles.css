@@ -1,0 +1,32 @@
+
+/* Top Content */
+.top-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.top-content h1{
+    font-size: 400%    
+}
+
+.top-content .box-gift{
+    width: 40%;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    /* Top Content */
+
+    .top-content h1{
+        font-size: 200%    
+    }
+
+    .top-content .box-gift{
+        width: 35%;
+    }
+}
